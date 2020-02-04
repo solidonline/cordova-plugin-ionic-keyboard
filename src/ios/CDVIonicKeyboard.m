@@ -138,7 +138,7 @@ NSString* UITraitsClassString;
 - (void)onKeyboardWillHide:(NSNotification *)sender
 {
     if (self.isWK) {
-        [self setKeyboardHeight:0 delay:0.01];
+        [self setKeyboardHeight:0 delay:0];
         [self resetScrollView];
     }
     hideTimer = [NSTimer scheduledTimerWithTimeInterval:0 target:self selector:@selector(fireOnHiding) userInfo:nil repeats:NO];
@@ -158,7 +158,7 @@ NSString* UITraitsClassString;
 
     if (self.isWK) {
         double duration = [[note.userInfo valueForKey:UIKeyboardAnimationDurationUserInfoKey] doubleValue];
-        [self setKeyboardHeight:height delay:duration+0.2];
+        [self setKeyboardHeight:height delay:duration];
         [self resetScrollView];
     }
     
