@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ios/CDVIonicKeyboard.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="249" column="95" lean-forward="true" selection-start-line="249" selection-start-column="95" selection-end-line="249" selection-end-column="95" />
+            <state relative-caret-position="426">
+              <caret line="248" column="18" lean-forward="true" selection-start-line="248" selection-start-column="18" selection-end-line="248" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -194,12 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580805575840</updated>
-      <workItem from="1580805577084" duration="1843000" />
+      <workItem from="1580805577084" duration="2462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1843000" />
+    <option name="totallyTimeSpent" value="2462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="114" width="1776" height="1087" extended-state="0" />
@@ -269,8 +269,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ios/CDVIonicKeyboard.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="249" column="95" lean-forward="true" selection-start-line="249" selection-start-column="95" selection-end-line="249" selection-end-column="95" />
+        <state relative-caret-position="426">
+          <caret line="248" column="18" lean-forward="true" selection-start-line="248" selection-start-column="18" selection-end-line="248" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -246,11 +246,12 @@ NSString* UITraitsClassString;
             [self.webView setFrame:CGRectMake(wf.origin.x, wf.origin.y, f.size.width - wf.origin.x, f.size.height - wf.origin.y - self.paddingBottom)];
             break;
         }
-        default:
+        default: {
             NSString *js = [NSString stringWithFormat:@"Keyboard.fireOnResize(%d, %d, NULL));",
                             _paddingBottom, (int)f.size.height];
             [self.commandDelegate evalJs:js];
             break;
+        }
     }
     [self resetScrollView];
 }
