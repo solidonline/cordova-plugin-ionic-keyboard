@@ -58,6 +58,9 @@ Keyboard.fireOnShowing = function (height) {
 };
 
 Keyboard.fireOnResize = function (height, screenHeight, ele) {
+    cordova.fireWindowEvent('keyboardHeightWillChange', {
+        'keyboardHeight': height
+    });
     if (!ele) {
         return;
     }
