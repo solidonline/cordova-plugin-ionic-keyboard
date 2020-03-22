@@ -102,16 +102,10 @@ public class CDVIonicKeyboard extends CordovaPlugin {
                             int screenHeight;
 
                             if (Build.VERSION.SDK_INT >= 21) {
-                                //Get the correct screen size even if the device has a hideable navigation bar (e.g. the Samsung Galaxy S8)
-                                View decorView = cordova.getActivity().getWindow().getDecorView(); //if you use this in a fragment, use getActivity before getWindow()
-                                Rect r = new Rect();
-                                decorView.getWindowVisibleDisplayFrame(r);
-
-
-                                //Display display = cordova.getActivity().getWindowManager().getDefaultDisplay();
-                                //Point size = new Point();
-                                //display.getSize(size);
-                                screenHeight = r.bottom;
+                                Display display = cordova.getActivity().getWindowManager().getDefaultDisplay();
+                                Point size = new Point();
+                                display.getSize(size);
+                                screenHeight = size.y;
                             } else {
                                 screenHeight = rootViewHeight;
                             }

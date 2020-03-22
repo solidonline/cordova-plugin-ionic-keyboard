@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3085010-651e-498d-8dc8-a3f9a5b7babb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/android/CDVIonicKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/CDVIonicKeyboard.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/android/CDVIonicKeyboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="105" selection-start-line="105" selection-end-line="113" selection-end-column="56" />
+            <state relative-caret-position="476">
+              <caret line="100" column="91" lean-forward="true" selection-start-line="100" selection-start-column="84" selection-end-line="100" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -199,12 +198,12 @@
       <updated>1580805575840</updated>
       <workItem from="1580805577084" duration="4790000" />
       <workItem from="1584875774735" duration="64000" />
-      <workItem from="1584877729811" duration="20000" />
+      <workItem from="1584877729811" duration="1266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4874000" />
+    <option name="totallyTimeSpent" value="6120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1865" height="1096" extended-state="6" />
@@ -274,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/CDVIonicKeyboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="105" selection-start-line="105" selection-end-line="113" selection-end-column="56" />
+        <state relative-caret-position="476">
+          <caret line="100" column="91" lean-forward="true" selection-start-line="100" selection-start-column="84" selection-end-line="100" selection-end-column="91" />
         </state>
       </provider>
     </entry>
